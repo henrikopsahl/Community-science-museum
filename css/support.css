@@ -1,0 +1,43 @@
+:root {
+    --main-background-color: rgba(25, 25, 35, 0.8);
+    --header-footer-background-color: rgba(25, 25, 35, 1);
+    --yellow: rgba(253, 202, 64, 1);
+    --red: rgba(177, 44, 37, 1);
+    --white: rgba(235, 242, 250, 1);
+    --button-color: rgba(25, 25, 35, 1);
+  }
+
+  h1{
+    color: var(--white);
+  }
+  
+  img{
+    max-width: 100%;
+    min-height: 20vh;
+  }
+  .paragraph{
+    text-align: center;
+    line-height: 18px;
+  }
+  h2{
+    color: var(--white);
+  }
+  input[type="text"] {
+    background-color: rgba(217, 217, 217, 0.2);
+    
+  }
+  input[type="submit"] {
+background-color: var(--yellow);
+color: var(--button-color);
+font-weight: bold;
+margin-top: 10px;
+border: none;
+  }
+  .donate-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  input[type="submit"]:hover{
+    background-color: var(--white);
+  }

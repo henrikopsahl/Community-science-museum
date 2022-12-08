@@ -1,0 +1,56 @@
+:root {
+  --main-background-color: rgba(25, 25, 35, 0.8);
+  --header-footer-background-color: rgba(25, 25, 35, 1);
+  --yellow: rgba(253, 202, 64, 1);
+  --red: rgba(177, 44, 37, 1);
+  --white: rgba(235, 242, 250, 1);
+  --button-color: rgba(25, 25, 35, 1);
+}
+
+img {
+  display: flex;
+  margin: auto;
+  padding: 5px;
+  max-width: 50%;
+}
+.mammut {
+  margin-left: 50%;
+}
+.toy {
+  margin-right: 50%;
+}
+.paragraph {
+  color: var(--white);
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 18px;
+}
+h1 {
+  color: var(--white);
+  text-align: center;
+  font-size: 1rem;
+
+  
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    max-width: 70%;
+  }
+  .container {
+    display: flex;
+  }
+  .mammut {
+    margin-left: 10%;
+  }
+  .toy {
+    margin-left: 20%;
+  }
+  .paragraph{
+    font-size: 1rem;
+    line-height: 28px;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+}

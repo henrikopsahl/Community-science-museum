@@ -1,0 +1,115 @@
+:root {
+  --main-background-color: rgba(25, 25, 35, 0.8);
+  --header-footer-background-color: rgba(25, 25, 35, 1);
+  --yellow: rgba(253, 202, 64, 1);
+  --red: rgba(177, 44, 37, 1);
+  --white: rgba(235, 242, 250, 1);
+  --button-color: rgba(25, 25, 35, 1);
+}
+.all6 img {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  margin-top: 40px;
+}
+.all6 a {
+  display: flex;
+  font-size: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.hero-section img {
+  max-width: 100%;
+  margin-top: -50px;
+  min-height: 20vh;
+}
+h1 {
+  position: relative;
+  z-index: 1;
+  color: var(--red);
+  font-size: 1.2rem;
+}
+.hero-section a {
+  display: grid;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: -40px;
+  background-color: var(--yellow);
+  min-width: 100px;
+  color: var(--button-color);
+  text-decoration: none;
+}
+.hero-section a:hover{
+  background-color: var(--white);
+}
+.explore-btn {
+  display: flex;
+  justify-content: center;
+  color: var(--white);
+  text-decoration: none;
+}
+.explore-btn:hover{
+  color: var(--yellow);
+}
+.top3,
+.bottom3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .all6 img {
+    display: flex;
+   width: 80%;
+    margin: 25px;
+  }
+ .all6 a{
+  font-size: 0.7rem;
+ }
+  .explore-btn{
+    position: absolute;
+    
+  }
+  .explore-kids-btn{
+    left: 30%;
+  }
+  .explore-universe-btn{
+    left: 44%;
+  }
+  .explore-robotics-btn{
+    left: 62%;
+  }
+  .explore-biology-btn{
+    left: 29%;
+  }
+  .explore-evolution-btn{
+    left: 44%;
+  }
+  .explore-specialevents-btn{
+    left: 61%;
+  }
+  .top3 ,
+  .bottom3  {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 100%;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  
+}
+@media screen and (min-width:1024px) {
+  .all6 a{
+    font-size: 1rem;
+  }
+}
