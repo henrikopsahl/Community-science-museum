@@ -1,0 +1,42 @@
+:root {
+    --main-background-color: rgba(25, 25, 35, 0.8);
+    --header-footer-background-color: rgba(25, 25, 35, 1);
+    --yellow: rgba(253, 202, 64, 1);
+    --red: rgba(177, 44, 37, 1);
+    --white: rgba(235, 242, 250, 1);
+    --button-color: rgba(25, 25, 35, 1);
+  }
+  h1, label{
+    text-align: center;
+    color: var(--white);
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  form{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      border: 1px solid transparent;
+      gap: 5px;
+      }
+  
+      input{
+        min-height: 45px;
+      }
+  
+
+  
+  input, textarea{
+    background-color: rgba(217, 217, 217, 0.2);
+  }
+ 
+ 
+  .bookbtn{
+    background-color:var(--yellow);
+    color: var(--button-color);
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .bookbtn:hover{
+    background-color: var(--white);
+  }
