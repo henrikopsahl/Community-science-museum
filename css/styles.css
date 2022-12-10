@@ -65,6 +65,8 @@ h1 {
   gap: 10px;
 }
 
+
+
 @media screen and (min-width: 768px) {
   .all6 img {
     display: flex;
