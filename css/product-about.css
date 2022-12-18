@@ -29,8 +29,6 @@ h1 {
   color: var(--white);
   text-align: center;
   font-size: 1rem;
-
-  
 }
 
 @media screen and (min-width: 768px) {
@@ -46,11 +44,11 @@ h1 {
   .toy {
     margin-left: 20%;
   }
-  .paragraph{
+  .paragraph {
     font-size: 1rem;
     line-height: 28px;
   }
-  h1{
+  h1 {
     font-size: 1.5rem;
   }
 }

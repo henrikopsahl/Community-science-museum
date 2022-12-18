@@ -15,14 +15,14 @@
 .all6 a {
   display: flex;
   font-size: 1rem;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 .hero-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 .hero-section img {
   max-width: 100%;
@@ -46,7 +46,7 @@ h1 {
   color: var(--button-color);
   text-decoration: none;
 }
-.hero-section a:hover{
+.hero-section a:hover {
   background-color: var(--white);
 }
 .explore-btn {
@@ -55,7 +55,7 @@ h1 {
   color: var(--white);
   text-decoration: none;
 }
-.explore-btn:hover{
+.explore-btn:hover {
   color: var(--yellow);
 }
 .top3,
@@ -65,53 +65,49 @@ h1 {
   gap: 10px;
 }
 
-
-
 @media screen and (min-width: 768px) {
   .all6 img {
     display: flex;
-   width: 80%;
+    width: 80%;
     margin: 25px;
   }
- .all6 a{
-  font-size: 0.7rem;
- }
-  .explore-btn{
-    position: absolute;
-    
+  .all6 a {
+    font-size: 0.7rem;
   }
-  .explore-kids-btn{
+  .explore-btn {
+    position: absolute;
+  }
+  .explore-kids-btn {
     left: 30%;
   }
-  .explore-universe-btn{
+  .explore-universe-btn {
     left: 44%;
   }
-  .explore-robotics-btn{
+  .explore-robotics-btn {
     left: 62%;
   }
-  .explore-biology-btn{
+  .explore-biology-btn {
     left: 29%;
   }
-  .explore-evolution-btn{
+  .explore-evolution-btn {
     left: 44%;
   }
-  .explore-specialevents-btn{
+  .explore-specialevents-btn {
     left: 61%;
   }
-  .top3 ,
-  .bottom3  {
+  .top3,
+  .bottom3 {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     width: 100%;
   }
-  h1{
+  h1 {
     font-size: 1.5rem;
   }
-  
 }
-@media screen and (min-width:1024px) {
-  .all6 a{
+@media screen and (min-width: 1024px) {
+  .all6 a {
     font-size: 1rem;
   }
 }

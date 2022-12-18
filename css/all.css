@@ -37,7 +37,7 @@ main {
   margin-left: 25%;
 }
 .header {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   display: flex;
   color: var(--yellow);
   background-color: var(--header-footer-background-color);
@@ -50,9 +50,9 @@ main {
   text-decoration: none;
   justify-content: flex-start;
   font-size: 1rem;
-  margin-top: 20px
+  margin-top: 20px;
 }
-.logo:hover{
+.logo:hover {
   color: var(--white);
 }
 nav ul {
@@ -68,7 +68,7 @@ li {
   flex-direction: row;
   list-style: none;
 }
-nav a:hover{
+nav a:hover {
   color: var(--white);
 }
 /* I used the w3school tutorial for helping me build the dropdown menu (https://www.w3schools.com/howto/howto_css_dropdown.asp)*/
@@ -103,7 +103,7 @@ nav a:hover{
   display: block;
 }
 .dropdown-menu:hover .dropdown-btn {
-  background-color: var(--white)
+  background-color: var(--white);
 }
 
 .footer {
@@ -114,7 +114,7 @@ nav a:hover{
   align-items: center;
 }
 span {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   margin-left: 25%;
   color: var(--yellow);
 }
@@ -122,11 +122,12 @@ hr {
   border: 0.5px solid var(--yellow);
 }
 p {
-  font-family: 'Bree Serif', serif;
+  font-family: "Bree Serif", serif;
   color: var(--white);
 }
-h1, h2{
-  font-family: 'josefin sans', sans-serif;
+h1,
+h2 {
+  font-family: "josefin sans", sans-serif;
 }
 a {
   transform: scale(1);
@@ -158,7 +159,7 @@ a:hover {
   .footer-location {
     margin-left: 10px;
   }
-  .logo{
+  .logo {
     font-size: 1.5rem;
   }
 }
