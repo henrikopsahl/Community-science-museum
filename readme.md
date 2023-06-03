@@ -11,6 +11,7 @@ For my first semester project, I had the task of designing and developing an eng
 # Installing
 
 1. Clone the repo
+https://github.com/henrikopsahl/Community-science-museum.git
 
 2. Install the dependencies
 
